@@ -138,7 +138,7 @@ const Portfolio = () => {
               <img 
                 src="/tsla.png" 
                 alt="Tesla"
-                className="absolute bottom-4 right-4 w-32 h-32 object-contain"
+                className="absolute bottom-4 right-4 w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 object-contain opacity-80 transition-opacity hidden sm:block"
               />
               
               {/* Original content without changes */}
@@ -183,7 +183,7 @@ const Portfolio = () => {
                 <img 
                   src="/bl.jpeg" 
                   alt="Bridge Legal"
-                  className="absolute bottom-4 right-4 w-32 h-32"
+                  className="absolute bottom-4 right-4 w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 object-contain opacity-80 transition-opacity hidden sm:block"
                 />
                 <div>
                   <h3 className="text-xl font-bold text-blue-400">Software Engineer Intern </h3>
@@ -225,7 +225,7 @@ const Portfolio = () => {
                 <img 
                   src="/vw.jpeg" 
                   alt="Vita Wallet"
-                  className="absolute bottom-4 right-4 w-32 h-32"
+                  className="absolute bottom-4 right-4 w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32 object-contain opacity-80 transition-opacity hidden sm:block"
                 />
 
                 <div>
